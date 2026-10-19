@@ -220,7 +220,7 @@ runs:
       run: echo "GEODE_BINDINGS_REPO_PATH=$GITHUB_WORKSPACE/bindings-repo" >> $GITHUB_ENV
 
     - name: Setup CLI
-      uses: geode-sdk/cli/.github/actions/setup@main
+      uses: geode-sdk/cli/.github/actions/setup@f5d228da3891d1f1230b0f4a9442d644bb553d60
       with:
         version: ${{ inputs.cli }}
 
